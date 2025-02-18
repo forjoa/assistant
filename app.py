@@ -10,7 +10,7 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Interfaz de Streamlit
-st.title("📝 Asistente Simplificado")
+st.title("📝 Asistente")
 st.write("¡Hazme una pregunta!")
 
 # Entrada del usuario
